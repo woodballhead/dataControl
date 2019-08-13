@@ -76,6 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -115,6 +116,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="common.h" />
+    <ClInclude Include="Def.h" />
+    <ClInclude Include="detectPVB.h" />
+    <ClInclude Include="ecgcodes.h" />
+    <ClInclude Include="heart_rate.h" />
+    <ClInclude Include="lablebpalgorithm.h" />
+    <ClInclude Include="MATCH.H" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="detectPVB.c" />
+    <ClCompile Include="heart_rate.c" />
+    <ClCompile Include="lablebpalgorithm.c" />
+    <ClCompile Include="main4dat.c" />
+    <ClCompile Include="match.c" />
+    <ClCompile Include="postclas.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

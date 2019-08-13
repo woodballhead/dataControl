@@ -14,4 +14,50 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="detectPVB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ecgcodes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="heart_rate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lablebpalgorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MATCH.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="detectPVB.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="heart_rate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lablebpalgorithm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main4dat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="match.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="postclas.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
